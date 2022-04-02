@@ -18,5 +18,5 @@ mvn jacoco:report
 
 ### Generate mutation coverage report
 ```
-mvn test org.pitest:pitest-maven:mutationCoverage
+mvn -DwithHistory test-compile org.pitest:pitest-maven:mutationCoverage
 ```
