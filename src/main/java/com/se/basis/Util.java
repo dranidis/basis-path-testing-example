@@ -9,8 +9,7 @@ public class Util {
         if (lowLimit <= upperLimit) {
             i = 0;
             while (i < data.length) {
-                if (data[i] <= upperLimit &&
-                        data[i] >= lowLimit)
+                if (data[i] <= upperLimit && data[i] >= lowLimit)
                     ++count;
                 i++;
             }
